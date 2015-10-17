@@ -1,0 +1,76 @@
+/*body {
+    background-image: url(../img/song.png);
+    background-size: cover;
+}*/
+
+/*
+video {
+    display: block;
+}
+*/
+/* button */
+.myButton {
+    background: url(../img/vlinder.png) no-repeat;
+    margin: 0 auto;
+    width: 100px;
+    height: 60px;
+    cursor:crosshair; /*sample cursor*/
+}
+/* position:fixed/absolute comes with left/bottom or right/top 
+   or any combination */
+#btn1 {
+    position: fixed;
+    bottom: 3%;
+    left: 10;
+}
+#btn2 {
+    position: fixed;
+    bottom: 12%;
+    left: 10;
+}
+#btn3 {
+    position: fixed;
+    bottom: 21%;
+    left: 10;
+}
+#btn4 {
+    position: fixed;
+    bottom: 52%;
+    left: 10;
+}
+#btn5 {
+    position: fixed;
+    bottom: 62%;
+    left: 10;
+}
+#btn6 {
+    position: fixed;
+    bottom: 72%;
+    left: 10;
+}
+
+/* background video */
+.bgvideo {
+    position: fixed;
+    /*left: 0;
+    top: 0;*/
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+    /* filters */
+    /*-webkit-filter:grayscale(50%);
+    filter:grayscale(50%);*/
+    /**/-webkit-filter:sepia(80%);
+    filter:sepia(80%);/**/
+    /*background: url(../img/song.png) no-repeat;
+    background-size: cover;*/
+}
+p {
+    font-size: 24px;
+    color: yellow;
+    text-align: center;
+}

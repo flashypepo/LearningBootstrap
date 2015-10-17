@@ -1,0 +1,30 @@
+body {
+    background-image: url(../img/song.png);
+    background-size: cover;
+}
+
+.bgvideo {
+    position: fixed;
+    /*left: 0;
+    top: 0;*/
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+    /* filters */
+    /*-webkit-filter:grayscale(50%);
+    filter:grayscale(50%);*/
+    /*-webkit-filter:sepia(80%);
+    filter:sepia(80%);*/
+    /*-webkit-filter:blur(100%);
+    filter:blur(100%);*/
+
+}
+
+p {
+    font-size: 24;
+    color: yellow;
+}
